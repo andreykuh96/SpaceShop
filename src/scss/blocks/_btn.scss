@@ -1,0 +1,34 @@
+.btn {
+    padding: 15px;
+    font-size: rem(16);
+    line-height: prc(21, 16);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: linear-gradient(87.23deg, rgba(128, 26, 179, 0.85) -91.42%, #4C4CFF 99.79%);
+    color: #FFFFFF;
+    cursor: pointer;
+
+    &:hover {
+        background: linear-gradient(87.23deg, rgb(128, 26, 179) -91.42%, #4c4cff56 99.79%);
+    }
+}
+
+.btn_promo {
+    padding-left: 77px;
+    padding-right: 77px;
+    border-radius: 4px;
+    font-size: rem(16);
+    line-height: em(21, 16);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #131316;
+    border: 1px dashed #131316;
+    background: #fff;
+}
+.btn_large {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

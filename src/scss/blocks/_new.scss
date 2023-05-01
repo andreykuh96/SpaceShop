@@ -1,0 +1,19 @@
+.new {
+    margin: 0 0 50px 0;
+}
+.new__title {
+    margin-bottom: 20px;
+    font-size: rem(32);
+    line-height: prc(43, 32);
+    letter-spacing: em(2, 32);
+    text-align: center;
+    color: #FFFFFF;
+}
+.new__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.new__card {
+    flex: 1 0 31.333%;
+}

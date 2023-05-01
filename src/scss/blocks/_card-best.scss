@@ -1,0 +1,118 @@
+.card-best {
+    background-color: #fff;
+}
+
+.card-best__body {
+    display: flex;
+}
+
+.card-best__img {}
+
+.card-best__descr {
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.card-best__rate {
+    margin: 0 0 10px 0;
+    display: flex;
+
+    img {
+        margin: 0 8px 0 0;
+        width: 28px;
+        height: 28px;
+
+        &:nth-last-child(1) {
+            margin: 0;
+        }
+    }
+}
+
+.card-best__title {
+    margin-bottom: 5px;
+    font-size: rem(16);
+    line-height: em(21, 16);
+}
+
+.card-best__subtitle {
+    margin-bottom: 20px;
+    font-size: rem(13);
+    line-height: prc(17, 13);
+}
+
+.card-best__price {
+    margin-bottom: 28px;
+    display: flex;
+}
+
+.card-best__price_old {
+    margin-right: 15px;
+    font-size: rem(16);
+    line-height: em(21, 16);
+    text-decoration-line: line-through;
+    color: #D9D9D9;
+}
+
+.card-best__price_older {
+    margin-right: 15px;
+    font-size: rem(16);
+    line-height: em(21, 16);
+    text-decoration-line: line-through;
+    color: #D9D9D9;
+}
+
+.card-best__price_active {
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: rem(16);
+    line-height: em(21, 16);
+}
+
+.card-best__price_discount {
+    width: 60px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: rem(16);
+    line-height: em(21, 16);
+    color: #FFFFFF;
+    background: #FF0000;
+    border-radius: 4px;
+}
+
+.card-best__about-discount {
+    font-size: rem(13);
+    line-height: em(17, 13);
+}
+
+.card-best__about-wrapper {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+}
+
+.card-best__text {}
+
+.card-best__about-price {
+    &_active {
+        font-weight: 700;
+        color: #FF0000;
+    }
+}
+
+.card-best__btns {
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}

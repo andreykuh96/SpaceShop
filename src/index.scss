@@ -1,0 +1,57 @@
+
+@import 'css/rebootcss';
+@import 'scss/functions/functions';
+@import 'scss/mixins/adaptive';
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('./fonts/SegoeUI.eot');
+    src: url('./fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/SegoeUI.woff2') format('woff2'),
+        url('./fonts/SegoeUI.woff') format('woff'),
+        url('./fonts/SegoeUI.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('./fonts/SegoeUI-Bold.eot');
+    src: url('./fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/SegoeUI-Bold.woff2') format('woff2'),
+        url('./fonts/SegoeUI-Bold.woff') format('woff'),
+        url('./fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: #fff;
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #131316 url('./images/bg_main.png') 0 0/contain no-repeat;
+}
+
+.container {
+    max-width: rem(620 + 30);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import './scss/blocks/header';
+@import './scss/blocks/btn';
+@import './scss/blocks/new';
+@import './scss/blocks/card-new';
+@import './scss/blocks/best';
+@import './scss/blocks/card-best';
+@import './scss/blocks/footer';
